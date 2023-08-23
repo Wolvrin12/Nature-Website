@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  height: 75px;
+  background: #e9ecef;
+}
+
+.logo {
+  padding-left: 125px;
+  width: 60%;
+  height: 90%;
+  cursor: pointer;
+}
+
+.logo a {
+  color: #113b3b;
+  font-size: 3.5em;
+  font-family: "Callifroz", sans-serif;
+  text-decoration: none;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 90%;
+  color: aqua;
+}
+
+.tabs li {
+  float: left;
+  margin-left: 50px;
+  list-style-type: none;
+  color: #293b11;
+  font-size: 2.5em;
+}
+
+@font-face {
+  font-family: "Callifroz";
+  src: url("./fonts/Callifroz.ttf");
+}
