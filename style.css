@@ -35,7 +35,6 @@ body {
 .tabs {
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 60%;
   height: 90%;
   color: aqua;
@@ -44,12 +43,33 @@ body {
 .tabs li {
   float: left;
   margin-left: 50px;
+  margin-top: 15px;
   list-style-type: none;
+}
+
+.tabs li a {
   color: #293b11;
-  font-size: 2.5em;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-family: "Mishap", sans-serif;
+}
+
+.tabs .selected {
+  background: #c5d5d5;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.tabs .selected a {
+  /* margin: 10px; */
 }
 
 @font-face {
   font-family: "Callifroz";
   src: url("./fonts/Callifroz.ttf");
+}
+
+@font-face {
+  font-family: "Mishap";
+  src: url("./fonts/Mishap.ttf");
 }
